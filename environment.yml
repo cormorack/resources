@@ -5,5 +5,12 @@ dependencies:
   - python=3.8
   - jupyter-book=0.10.2
   - pip=20
+  - xarray<0.18
+  - cftime
+  - matplotlib
+  - hvplot
+  - datashader
+  - cmocean
   - pip:
     - sphinxcontrib-bibtex==2.2.0
+    - git+https://github.com/ooi-data/ooi-harvester.git@main
