@@ -1,0 +1,9 @@
+name: cava-resources
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyter-book=0.10.2
+  - pip=20
+  - pip:
+    - sphinxcontrib-bibtex==2.2.0
