@@ -1,7 +1,6 @@
-Welcome to your Jupyter Book
-============================
+Welcome to Interactive Oceans Resources Site
+============================================
 
-This is a small sample book to give you a feel for how book content is
-structured.
-
-Check out the content pages bundled with this sample book to get started.
+The purpose of this book is to provide you with resources on understanding how
+some of the processing has been done to provide the visualizations you see
+on the [Interactive Oceans Data Portal](https://app.interactiveoceans.washington.edu/).

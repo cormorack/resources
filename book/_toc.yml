@@ -2,7 +2,6 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
-- file: content
+- file: visualization/index
   sections:
-    - file: markdown
-    - file: notebooks
+    - file: visualization/Datashading
