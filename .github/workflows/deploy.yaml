@@ -5,7 +5,7 @@ on:
     paths:
       - 'book/**'
       - '.github/workflows/deploy.yaml'
-      - 'environment.yml'
+      - 'environment.yaml'
     branches:
       - main
 
