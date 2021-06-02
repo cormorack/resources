@@ -12,6 +12,8 @@ dependencies:
   - datashader
   - cmocean
   - ffmpeg
+  - netcdf4
+  - zarr
   - pip:
     - sphinxcontrib-bibtex==2.2.0
     - git+https://github.com/ooi-data/ooi-harvester.git@main
