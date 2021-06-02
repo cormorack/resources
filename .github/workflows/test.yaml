@@ -50,8 +50,8 @@ jobs:
 
     - name: Build JupyterBook
       run: |
-        jupyter-book build docs/
+        jupyter-book build book/
 
     - name: Check External Links
       run: |
-        jupyter-book build docs/ --builder linkcheck
+        jupyter-book build book/ --builder linkcheck
