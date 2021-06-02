@@ -13,16 +13,16 @@ execute:
   timeout: 100
 
 # Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
+# latex:
+#   latex_documents:
+#     targetname: book.tex
 
 # Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
-sphinx:
-  config:
-    bibtex_reference_style: author_year  # or label, super, \supercite
+# bibtex_bibfiles:
+#   - references.bib
+# sphinx:
+#   config:
+#     bibtex_reference_style: author_year  # or label, super, \supercite
 
 # Information about where the book exists on the web
 repository:

@@ -2,6 +2,9 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 #
 - file: intro
+- file: ocean/index
+  sections:
+    - file: ocean/Ocean 01 A Photic Zone CTD
 - file: visualization/index
   sections:
     - file: visualization/Datashading
