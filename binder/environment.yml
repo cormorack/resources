@@ -2,10 +2,12 @@ name: cava-resources
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python==3.8
   - jupyter-book=0.12.1
-  - pip=22
   - xarray
+  - ipykernel
+  - intake
+  - intake-xarray
   - cftime
   - matplotlib
   - hvplot
@@ -14,6 +16,10 @@ dependencies:
   - ffmpeg
   - netcdf4
   - zarr
+  - s3fs==2021.10.1
+  - pip
+  - panel
+  - bokeh
   - pip:
     - sphinxcontrib-bibtex==2.2.0
     - git+https://github.com/ooi-data/ooi-harvester.git@main

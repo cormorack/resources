@@ -2,7 +2,8 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Interactive Oceans Resources
-author: Cabled Array Value Added Team
+copyright: "2022"
+author: OOI Regional Cabled Array
 logo: ooi-rsn-logo.png
 
 # Force re-execution of notebooks on each build.
@@ -33,6 +34,7 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
+  home_page_in_navbar: false
   use_edit_page_button: true
   use_issues_button: true
   use_repository_button: true

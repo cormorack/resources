@@ -1,10 +1,15 @@
-# Table of content
-# Learn more at https://jupyterbook.org/customize/toc.html
-#
-- file: intro
-- file: ocean/index
-  sections:
+format: jb-book
+root: intro
+parts:
+- caption: Ocean Data Science
+  chapters:
     - file: ocean/Ocean 01 A Photic Zone CTD
-- file: visualization/index
-  sections:
+- caption: IO Data Portal
+  chapters:
     - file: visualization/Datashading
+# - file: ocean/index
+#   sections:
+#   - file: ocean/Ocean 01 A Photic Zone CTD
+# - file: visualization/index
+#   sections:
+#   - file: visualization/Datashading
